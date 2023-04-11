@@ -1,17 +1,12 @@
 #include <iostream>
 using namespace std;
+int main(void){
+    int n;
+    cin>>n;
+    while(n!=0)
+    {
+      n=n-1; //n--; 와 같다.
+      cout<< n << endl;
+    }
 
-int main(){
-  int price = 0;
-  int age = 17;
-  if (age < 13){
-    price = 23000;
-  }
-  else if (age < 20){
-    price = 25000;
-  }
-  else{
-    price = 27000;
-  }
-  cout << price << endl;
 }
